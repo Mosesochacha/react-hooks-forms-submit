@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-function Form() {
-  const [firstName, setFirstName] = useState("Sylvia");
-  const [lastName, setLastName] = useState("Woods");
+export default function Form() {
+  const [firstName, setFirstName] = useState("Superhero");
+  const [lastName, setLastName] = useState("man ocha");
   const [submittedData, setSubmittedData] = useState([]);
   const [errors, setErrors] = useState([]);
 
@@ -57,4 +57,3 @@ function Form() {
   );
       
 }
- export default Form;
